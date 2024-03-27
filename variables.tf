@@ -2,10 +2,6 @@ variable "org_name" {
     default = ""
 }
 
-variable "oauth_token_id" {
-    default = ""
-}
-
 variable "workspace_name" {
     default = "" 
 }

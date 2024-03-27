@@ -1,5 +1,4 @@
 org_name = "georg"
-oauth_token_id = "ot-EYznmmb31enHvJ8o"
 workspace_name = "tf-gke"
 workspace_vcs_repo_branch = "main"
 workspace_vcs_repo_identifier = "georgech91/terraform-gcp"
