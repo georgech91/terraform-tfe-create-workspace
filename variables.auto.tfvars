@@ -25,3 +25,4 @@ workspace_variables = [
   #     sensitive = false
   # },
 ]
+tags_regex = "^deploy-\\d+.\\d+.\\d+$"

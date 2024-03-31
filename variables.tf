@@ -44,3 +44,7 @@ variable "workspace_variables" {
     error_message = "workspace_variables.category must be either 'terraform' or 'env'"
   }
 }
+
+variable "tags_regex" {
+  default = ""
+}
