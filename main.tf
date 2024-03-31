@@ -5,16 +5,6 @@ data "tfe_organization" "example" {
   name = var.org_name
 }
 
-data "tfe_project" "example" {
-  name         = var.project_name
-  organization = data.tfe_organization.example.name
-}
-
-import {
-  to = tfe_project.example
-  id = data.tfe_project.example.id
-}
-
 resource "tfe_project" "example" {
   organization = data.tfe_organization.example.name
   name         = var.project_name
