@@ -23,6 +23,7 @@ resource "tfe_workspace" "example" {
   }
   queue_all_runs    = false
   working_directory = var.workspace_vcs_repo_working_directory
+  file_triggers_enabled = false
 }
 
 locals {
