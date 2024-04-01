@@ -25,4 +25,5 @@ workspace_variables = [
   #     sensitive = false
   # },
 ]
-tags_regex = "^deploy-\\d+.\\d+.\\d+$"
+tags_regex      = "^deploy-\\d+.\\d+.\\d+$"
+oauth_client_id = "oc-HQdmV63wAZuKEroC"

@@ -8,8 +8,7 @@ resource "tfe_project" "example" {
 }
 
 data "tfe_oauth_client" "example" {
-  organization     = data.tfe_organization.example.name
-  service_provider = var.service_provider
+  oauth_client_id = var.oauth_client_id
 }
 
 resource "tfe_workspace" "example" {

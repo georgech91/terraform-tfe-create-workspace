@@ -48,3 +48,7 @@ variable "workspace_variables" {
 variable "tags_regex" {
   default = ""
 }
+
+variable "oauth_client_id" {
+  default = ""
+}
