@@ -4,7 +4,6 @@ workspace_vcs_repo_branch            = "main"
 workspace_vcs_repo_identifier        = "georgech91/terraform-gcp"
 workspace_vcs_repo_working_directory = "gke"
 project_name                         = "tfc-demo"
-service_provider                     = "github"
 workspace_variables = [
   {
     key       = "example-key",

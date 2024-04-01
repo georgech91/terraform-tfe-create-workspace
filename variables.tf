@@ -22,10 +22,6 @@ variable "project_name" {
   default = ""
 }
 
-variable "service_provider" {
-  default = ""
-}
-
 variable "workspace_variables" {
   default = []
   type = set(object({
