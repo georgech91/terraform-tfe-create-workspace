@@ -1,6 +1,3 @@
-provider "tfe" {
-}
-
 data "tfe_organization" "example" {
   name = var.org_name
 }
