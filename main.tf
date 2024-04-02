@@ -21,8 +21,8 @@ resource "tfe_workspace" "example" {
     oauth_token_id = data.tfe_oauth_client.example.oauth_token_id
     tags_regex     = var.tags_regex
   }
-  queue_all_runs    = false
-  working_directory = var.workspace_vcs_repo_working_directory
+  queue_all_runs        = false
+  working_directory     = var.workspace_vcs_repo_working_directory
   file_triggers_enabled = false
 }
 
